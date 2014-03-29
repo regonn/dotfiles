@@ -5,9 +5,6 @@
 export LANG=ja_JP.UTF-8
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init - zsh)"
-export CC=/usr/local/Cellar/apple-gcc42/4.2.1-5666.3/bin/gcc-4.2
-export CXX=/usr/local/Cellar/apple-gcc42/4.2.1-5666.3/bin/g++-4.2
-export CPP=/usr/local/Cellar/apple-gcc42/4.2.1-5666.3/bin/cpp-4.2
 source ~/.nvm/nvm.sh
 
 # 色を使用出来るようにする
