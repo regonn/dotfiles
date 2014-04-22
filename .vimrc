@@ -14,7 +14,9 @@ NeoBundle 'jpo/vim-railscasts-theme'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-endwise'
-NeoBundle 'Shougo/neocomplcache.vim'
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'digitaltoad/vim-jade'
+NeoBundle 'Shougo/neocomplete'
 
 " 未インストールのbundleがないかチェック
 NeoBundleCheck
@@ -48,9 +50,6 @@ set softtabstop=2
 
 "自動的にインデントする
 set autoindent
-
-" add neocomplcache option
-let g:neocomplcache_force_overwrite_completefunc=1
 
 "タイトル表示
 set title
@@ -95,3 +94,14 @@ au WinEnter * let w:m3 = matchadd("ZenkakuSpace", '　')
 
 "Back space対応
 set backspace=start,eol,indent
+
+"neocomplete用設定
+let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#enable_ignore_case = 1
+let g:neocomplete#enable_smart_case = 1
+if !exists('g:neocomplete#keyword_patterns')
+  let g:neocomplete#keyword_patterns = {}
+endif
+let g:neocomplete#keyword_patterns._ = '\h\w*'
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"

@@ -1,8 +1,10 @@
 neobundle.vim
-neocomplcache.vim
+neocomplete
 unite.vim
+vim-coffee-script
 vim-endwise
 vim-indent-guides
+vim-jade
 vim-rails
 vim-railscasts-theme
 vimproc
