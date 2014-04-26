@@ -17,6 +17,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'Shougo/neocomplete'
+NeoBundle 'scrooloose/nerdtree'
 
 " 未インストールのbundleがないかチェック
 NeoBundleCheck

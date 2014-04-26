@@ -1,5 +1,6 @@
 neobundle.vim
 neocomplete
+nerdtree
 unite.vim
 vim-coffee-script
 vim-endwise
