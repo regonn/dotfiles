@@ -6,7 +6,7 @@ neocomplete
 neomru.vim
 nerdtree
 sass-compile.vim
-tomment_vim
+tcomment_vim
 unite.vim
 vim-coffee-script
 vim-endwise

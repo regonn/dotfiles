@@ -25,7 +25,7 @@ NeoBundle 'tpope/vim-haml'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'jnwhiteh/vim-golang'
 NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'tomtom/tomment_vim'
+NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 
@@ -75,6 +75,11 @@ set showmatch
 set cmdheight=2
 set laststatus=2
 set statusline=%F%r%h%=
+
+"golang設定
+autocmd FileType go set tabstop=4
+autocmd FileType go set shiftwidth=4
+autocmd FileType go set noexpandtab
 
 "コマンド表示
 set showcmd
