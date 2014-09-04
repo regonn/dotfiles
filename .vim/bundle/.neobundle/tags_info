@@ -1,5 +1,5 @@
 AnsiEsc.vim
-cpp-vim
+ag.vim
 html5.vim
 neobundle.vim
 neocomplete
@@ -7,15 +7,13 @@ neomru.vim
 nerdtree
 sass-compile.vim
 tcomment_vim
-unite.vim
 vim-coffee-script
 vim-endwise
 vim-fugitive
-vim-golang
 vim-haml
 vim-indent-guides
-vim-jade
 vim-rails
 vim-railscasts-theme
+vim-slim
 vim-surround
 vimproc

@@ -1,0 +1,27 @@
+{
+  "name": "railscast",
+  "theme": "syntax",
+  "version": "0.2.0",
+  "private": true,
+  "description": "An Atom syntax theme based on the Railscast theme.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpinnix/railscast"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "# railscast theme\n\nAn Atom syntax theme based on the Railscast theme for Textmate.\n\n![Screenshot](https://raw.github.com/jpinnix/railscast/master/screenshot.png)\n\nOriginally converted from the [TextMate](http://media.railscasts.com/resources/textmate_theme.zip)\ntheme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jpinnix/railscast/issues"
+  },
+  "homepage": "https://github.com/jpinnix/railscast",
+  "_id": "railscast@0.2.0",
+  "dist": {
+    "shasum": "a437e5bc3c4e091b46399eec487b48254c17647c"
+  },
+  "_resolved": "/var/folders/l8/bc57jcvn4h1cmkxy3m0knqch0000gn/T/d-11484-42703-da3wdf/package.tgz",
+  "_from": "/var/folders/l8/bc57jcvn4h1cmkxy3m0knqch0000gn/T/d-11484-42703-da3wdf/package.tgz"
+}
