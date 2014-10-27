@@ -3,7 +3,9 @@ filetype plugin indent off
 
 if has('vim_starting')
   set runtimepath+=~/dotfiles/.vim/bundle/neobundle.vim/
-  call neobundle#rc(expand('~/dotfiles/.vim/bundle/'))
+  call neobundle#begin(expand('~/.vim/bundle/'))
+  NeoBundleFetch 'Shougo/neobundle.vim'
+  call neobundle#end()
 endif
 
 " プラグイン
@@ -19,11 +21,9 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'vim-jp/cpp-vim'
 NeoBundle 'AtsushiM/sass-compile.vim'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'othree/html5.vim'
-NeoBundle 'jnwhiteh/vim-golang'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'tpope/vim-surround'
@@ -75,11 +75,6 @@ set showmatch
 set cmdheight=2
 set laststatus=2
 set statusline=%F%r%h%=
-
-"golang設定
-autocmd FileType go set tabstop=4
-autocmd FileType go set shiftwidth=4
-autocmd FileType go set noexpandtab
 
 "コマンド表示
 set showcmd
@@ -145,11 +140,3 @@ au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 
 "grep検索の実行後にQuickFix Listを表示する
 autocmd QuickFixCmdPost *grep* cwindow
-
-"ステータス行に現在のgitブランチを表示する
-set statusline+=%{fugitive#statusline()}
-
-"自動的に閉じ括弧を入力
-imap { {}<LEFT>
-imap [ []<LEFT>
-imap ( ()<LEFT>
