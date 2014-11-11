@@ -1,5 +1,4 @@
 AnsiEsc.vim
-cpp-vim
 html5.vim
 neobundle.vim
 neocomplete
@@ -11,7 +10,6 @@ unite.vim
 vim-coffee-script
 vim-endwise
 vim-fugitive
-vim-golang
 vim-haml
 vim-indent-guides
 vim-jade

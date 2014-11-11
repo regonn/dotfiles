@@ -1,0 +1,23 @@
+{
+  "name": "ask-stack",
+  "main": "./lib/ask-stack",
+  "version": "0.1.0",
+  "description": "Quickly get answers and code samples from Stack Overflow in Atom",
+  "activationEvents": [
+    "ask-stack:ask-question"
+  ],
+  "repository": "https://github.com/Chris911/Ask-Stack-Atom",
+  "license": "MIT",
+  "author": {
+    "name": "Christophe Naud-Dulude",
+    "url": "https://github.com/Chris911"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "request": "2.x",
+    "highlight.js": "8.x",
+    "copy-paste": "0.2.x"
+  }
+}
