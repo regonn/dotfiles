@@ -1,0 +1,17 @@
+{
+  "name": "atom-rails",
+  "main": "./lib/atom-rails",
+  "version": "0.3.4",
+  "description": "Commands for Ruby on Rails development",
+  "author": "Tom Kadwill",
+  "activationEvents": [
+    "atom-rails:switch-to-model",
+    "atom-rails:related"
+  ],
+  "repository": "https://github.com/tomkadwill/atom-rails",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
