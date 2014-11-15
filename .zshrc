@@ -6,7 +6,7 @@ export LANG=ja_JP.UTF-8
 export PATH=/usr/local/bin:$PATH
 eval "$(rbenv init - zsh)"
 source ~/.nvm/nvm.sh
-nvm use v0.10.22 > /dev/null
+nvm use v0.10.26 > /dev/null
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export GOPATH=~/gocode
