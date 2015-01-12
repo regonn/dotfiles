@@ -5,6 +5,7 @@ neobundle.vim
 neocomplete
 neomru.vim
 nerdtree
+rust.vim
 sass-compile.vim
 tcomment_vim
 vim-coffee-script
