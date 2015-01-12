@@ -28,6 +28,7 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'rking/ag.vim'
+NeoBundle 'wting/rust.vim'
 
 " 未インストールのbundleがないかチェック
 NeoBundleCheck

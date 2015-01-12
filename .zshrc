@@ -4,13 +4,15 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
 export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
 eval "$(rbenv init - zsh)"
 source ~/.nvm/nvm.sh
-nvm use v0.10.26 > /dev/null
+nvm use v0.11.14 > /dev/null
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export GOPATH=~/gocode
 export PATH="$PATH:$GOPATH/bin"
+export PATH=$PATH:/Users/regonn/Library/Android/sdk/platform-tools
 
 # 色を使用出来るようにする
 autoload -Uz colors

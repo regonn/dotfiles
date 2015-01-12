@@ -94,6 +94,10 @@
 :NeoMRUImportFile	neomru.txt	/*:NeoMRUImportFile*
 :NeoMRUReload	neomru.txt	/*:NeoMRUReload*
 :NeoMRUSave	neomru.txt	/*:NeoMRUSave*
+:RustEmitAsm	rust.txt	/*:RustEmitAsm*
+:RustEmitIr	rust.txt	/*:RustEmitIr*
+:RustExpand	rust.txt	/*:RustExpand*
+:RustRun	rust.txt	/*:RustRun*
 :TComment	tcomment.txt	/*:TComment*
 :TCommentAs	tcomment.txt	/*:TCommentAs*
 :TCommentBlock	tcomment.txt	/*:TCommentBlock*
@@ -199,6 +203,7 @@ b:tcomment_def_{NAME}	tcomment.txt	/*b:tcomment_def_{NAME}*
 config/rails.vim	rails.txt	/*config\/rails.vim*
 cs	surround.txt	/*cs*
 ds	surround.txt	/*ds*
+ft-rust	rust.txt	/*ft-rust*
 fugitive	fugitive.txt	/*fugitive*
 fugitive#head(...)	fugitive.txt	/*fugitive#head(...)*
 fugitive#statusline()	fugitive.txt	/*fugitive#statusline()*
@@ -256,6 +261,7 @@ fugitive-statusline	fugitive.txt	/*fugitive-statusline*
 fugitive-y_CTRL-G	fugitive.txt	/*fugitive-y_CTRL-G*
 fugitive-~	fugitive.txt	/*fugitive-~*
 fugitive.txt	fugitive.txt	/*fugitive.txt*
+<<<<<<< HEAD
 g:ag_apply_lmappings	ag.txt	/*g:ag_apply_lmappings*
 g:ag_apply_qmappings	ag.txt	/*g:ag_apply_qmappings*
 g:ag_lhandler	ag.txt	/*g:ag_lhandler*
@@ -264,6 +270,10 @@ g:ag_qhandler	ag.txt	/*g:ag_qhandler*
 g:agformat	ag.txt	/*g:agformat*
 g:aghighlight	ag.txt	/*g:aghighlight*
 g:agprg	ag.txt	/*g:agprg*
+=======
+g:cargo_manifest_name	rust.txt	/*g:cargo_manifest_name*
+g:ftplugin_rust_source_path	rust.txt	/*g:ftplugin_rust_source_path*
+>>>>>>> origin/master
 g:neobundle#cache_file	neobundle.txt	/*g:neobundle#cache_file*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
 g:neobundle#default_site	neobundle.txt	/*g:neobundle#default_site*
@@ -347,6 +357,14 @@ g:rails_abbreviations	rails.txt	/*g:rails_abbreviations*
 g:rails_ctags_arguments	rails.txt	/*g:rails_ctags_arguments*
 g:rails_gem_projections	rails.txt	/*g:rails_gem_projections*
 g:rails_projections	rails.txt	/*g:rails_projections*
+g:rust_bang_comment_leader	rust.txt	/*g:rust_bang_comment_leader*
+g:rust_conceal	rust.txt	/*g:rust_conceal*
+g:rust_conceal_mod_path	rust.txt	/*g:rust_conceal_mod_path*
+g:rust_conceal_pub	rust.txt	/*g:rust_conceal_pub*
+g:rust_fold	rust.txt	/*g:rust_fold*
+g:rust_recommended_style	rust.txt	/*g:rust_recommended_style*
+g:rustc_makeprg_no_percent	rust.txt	/*g:rustc_makeprg_no_percent*
+g:rustc_path	rust.txt	/*g:rustc_path*
 g:stderrencoding	vimproc.txt	/*g:stderrencoding*
 g:stdinencoding	vimproc.txt	/*g:stdinencoding*
 g:stdoutencoding	vimproc.txt	/*g:stdoutencoding*
@@ -749,6 +767,14 @@ rails-syntax-yaml	rails.txt	/*rails-syntax-yaml*
 rails-type-navigation	rails.txt	/*rails-type-navigation*
 rails-vim-integration	rails.txt	/*rails-vim-integration*
 rails.txt	rails.txt	/*rails.txt*
+rust	rust.txt	/*rust*
+rust-commands	rust.txt	/*rust-commands*
+rust-intro	rust.txt	/*rust-intro*
+rust-mappings	rust.txt	/*rust-mappings*
+rust-settings	rust.txt	/*rust-settings*
+rust.txt	rust.txt	/*rust.txt*
+rust_<D-R>	rust.txt	/*rust_<D-R>*
+rust_<D-r>	rust.txt	/*rust_<D-r>*
 surround	surround.txt	/*surround*
 surround-customizing	surround.txt	/*surround-customizing*
 surround-issues	surround.txt	/*surround-issues*
