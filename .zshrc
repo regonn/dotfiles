@@ -220,3 +220,15 @@ esac
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+if [ -z "$PS1" ]; then return ; fi
+
+if [ -z $TMUX ] ; then
+  if [ -z `tmux ls` ] ; then
+    tmux
+  else
+    tmux attach
+  fi
+fi
+          fi
+fi
