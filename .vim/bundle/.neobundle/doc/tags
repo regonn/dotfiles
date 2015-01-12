@@ -35,6 +35,7 @@
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
 :Ag	ag.txt	/*:Ag*
 :AgAdd	ag.txt	/*:AgAdd*
+:AgBuffer	ag.txt	/*:AgBuffer*
 :AgFile	ag.txt	/*:AgFile*
 :AgFromSearch	ag.txt	/*:AgFromSearch*
 :AgHelp	ag.txt	/*:AgHelp*
@@ -43,6 +44,7 @@
 :IndentGuidesToggle	indent_guides.txt	/*:IndentGuidesToggle*
 :LAg	ag.txt	/*:LAg*
 :LAgAdd	ag.txt	/*:LAgAdd*
+:LAgBuffer	ag.txt	/*:LAgBuffer*
 :LAgHelp	ag.txt	/*:LAgHelp*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeCWD	NERD_tree.txt	/*:NERDTreeCWD*
@@ -261,19 +263,16 @@ fugitive-statusline	fugitive.txt	/*fugitive-statusline*
 fugitive-y_CTRL-G	fugitive.txt	/*fugitive-y_CTRL-G*
 fugitive-~	fugitive.txt	/*fugitive-~*
 fugitive.txt	fugitive.txt	/*fugitive.txt*
-<<<<<<< HEAD
 g:ag_apply_lmappings	ag.txt	/*g:ag_apply_lmappings*
 g:ag_apply_qmappings	ag.txt	/*g:ag_apply_qmappings*
+g:ag_format	ag.txt	/*g:ag_format*
+g:ag_highlight	ag.txt	/*g:ag_highlight*
 g:ag_lhandler	ag.txt	/*g:ag_lhandler*
 g:ag_mapping_message	ag.txt	/*g:ag_mapping_message*
+g:ag_prg	ag.txt	/*g:ag_prg*
 g:ag_qhandler	ag.txt	/*g:ag_qhandler*
-g:agformat	ag.txt	/*g:agformat*
-g:aghighlight	ag.txt	/*g:aghighlight*
-g:agprg	ag.txt	/*g:agprg*
-=======
 g:cargo_manifest_name	rust.txt	/*g:cargo_manifest_name*
 g:ftplugin_rust_source_path	rust.txt	/*g:ftplugin_rust_source_path*
->>>>>>> origin/master
 g:neobundle#cache_file	neobundle.txt	/*g:neobundle#cache_file*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
 g:neobundle#default_site	neobundle.txt	/*g:neobundle#default_site*

@@ -1,24 +1,14 @@
-<<<<<<< HEAD
 NeoBundleLock AnsiEsc.vim d2bb7878622e4c16203acf1c92a0f4bc7ac58003
-NeoBundleLock ag.vim 8241b734d9288ceb2d1da96f690c2e1c361f340c
+NeoBundleLock ag.vim 218a23a002d8351576cfaa4980ade9120a033e5b
 NeoBundleLock html5.vim a47aa2d274daf8675a2b20577b75d573f4c2dfc5
 NeoBundleLock neobundle.vim e4e6766e7bbcac9b7048ee247f02af9020b9df29
 NeoBundleLock neocomplete 9d554042b53fc2b9c7a332b481883bb773ff721f
 NeoBundleLock neomru.vim 7df9999b841228661ff73909c5b9e34952331e22
 NeoBundleLock nerdtree 3b98a7fcae8f9fff356907171f0406ff8cd28921
-=======
-NeoBundleLock vim-surround fa433e0b7330753688f715f3be5d10dc480f20e5
-NeoBundleLock vim-endwise bba43b831ae0485cf9b86d16340a6a314b927391
-NeoBundleLock ag.vim a00f1eee2e905929155fdaa48867182cb4503834
-NeoBundleLock neocomplete 9d554042b53fc2b9c7a332b481883bb773ff721f
-NeoBundleLock html5.vim a47aa2d274daf8675a2b20577b75d573f4c2dfc5
-NeoBundleLock vim-indent-guides eec1b629dc4cfa3986d20f21d4b4489732cd3f5a
-NeoBundleLock vim-railscasts-theme 9035daff38dbbd30229890f26e54d9a7a71deca3
->>>>>>> origin/master
+NeoBundleLock rust.vim 08bb56fbdb61380621db6fe36a24d0a3d176f7a0
 NeoBundleLock sass-compile.vim ef6b1cb63927b3d72329dfc098f4db668599fff0
 NeoBundleLock tcomment_vim eb675f0a2e847428c446e97c07e0c91fa8b6e3c5
 NeoBundleLock vim-coffee-script 827e4a38b07479433b619091469a7495a392df8a
-<<<<<<< HEAD
 NeoBundleLock vim-endwise bba43b831ae0485cf9b86d16340a6a314b927391
 NeoBundleLock vim-fugitive 2c8461db084d205903a792a23163faa546f143c9
 NeoBundleLock vim-haml 204e32721154766e03e99ff857bc798aa5b741dc
@@ -28,16 +18,3 @@ NeoBundleLock vim-railscasts-theme 9035daff38dbbd30229890f26e54d9a7a71deca3
 NeoBundleLock vim-slim 0daaa8581f9a9968cebbc7d14ae9acf1625c0389
 NeoBundleLock vim-surround fa433e0b7330753688f715f3be5d10dc480f20e5
 NeoBundleLock vimproc 98482672f888aec28ae3764e4432f7127ca8697b
-=======
-NeoBundleLock tcomment_vim eb675f0a2e847428c446e97c07e0c91fa8b6e3c5
-NeoBundleLock vim-fugitive 2c8461db084d205903a792a23163faa546f143c9
-NeoBundleLock vimproc 98482672f888aec28ae3764e4432f7127ca8697b
-NeoBundleLock rust.vim 08bb56fbdb61380621db6fe36a24d0a3d176f7a0
-NeoBundleLock nerdtree 3b98a7fcae8f9fff356907171f0406ff8cd28921
-NeoBundleLock vim-slim a00f1eee2e905929155fdaa48867182cb4503834
-NeoBundleLock vim-haml 204e32721154766e03e99ff857bc798aa5b741dc
-NeoBundleLock AnsiEsc.vim d2bb7878622e4c16203acf1c92a0f4bc7ac58003
-NeoBundleLock vim-rails e13ee81882c2e4c1bba022914a04e3f7cd6fc5d6
-NeoBundleLock neobundle.vim e4e6766e7bbcac9b7048ee247f02af9020b9df29
-NeoBundleLock neomru.vim 7df9999b841228661ff73909c5b9e34952331e22
->>>>>>> origin/master
