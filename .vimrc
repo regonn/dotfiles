@@ -29,6 +29,7 @@ NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'wting/rust.vim'
+NeoBundle 'christoomey/vim-tmux-navigator'
 
 " 未インストールのbundleがないかチェック
 NeoBundleCheck
@@ -120,3 +121,6 @@ inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
 "grep検索の実行後にQuickFix Listを表示する
 autocmd QuickFixCmdPost *grep* cwindow
+
+"nerdtreeをControl + eで表示できる
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
