@@ -13,6 +13,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export GOPATH=~/gocode
 export PATH="$PATH:$GOPATH/bin"
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/platform-tools
+export PATH=$PATH:/Users/regonn/Library/Android/sdk/tools
 export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk
 
 # 色を使用出来るようにする
