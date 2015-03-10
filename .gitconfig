@@ -1,6 +1,6 @@
 [user]
 	name = regonn
-	email = regonn314@gmail.com
+	email = github@regonn.tokyo
 
 [color]
 	ui = auto
@@ -14,3 +14,7 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
