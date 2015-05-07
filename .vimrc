@@ -3,12 +3,11 @@ filetype plugin indent off
 
 if has('vim_starting')
   set runtimepath+=~/dotfiles/.vim/bundle/neobundle.vim/
-  call neobundle#begin(expand('~/.vim/bundle/'))
-  NeoBundleFetch 'Shougo/neobundle.vim'
-  call neobundle#end()
 endif
 
 " プラグイン
+call neobundle#begin(expand('~/.vim/bundle/'))
+NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'Shougo/vimproc'
@@ -30,6 +29,7 @@ NeoBundle 'slim-template/vim-slim'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'wting/rust.vim'
 NeoBundle 'christoomey/vim-tmux-navigator'
+call neobundle#end()
 
 " 未インストールのbundleがないかチェック
 NeoBundleCheck

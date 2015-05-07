@@ -107,6 +107,7 @@
 :TCommentMaybeInline	tcomment.txt	/*:TCommentMaybeInline*
 :TCommentRight	tcomment.txt	/*:TCommentRight*
 :VimProcBang	vimproc.txt	/*:VimProcBang*
+:VimProcInstall	vimproc.txt	/*:VimProcInstall*
 :VimProcRead	vimproc.txt	/*:VimProcRead*
 <Plug>(neocomplete_start_quick_match)	neocomplete.txt	/*<Plug>(neocomplete_start_quick_match)*
 <Plug>(neocomplete_start_unite_complete)	neocomplete.txt	/*<Plug>(neocomplete_start_unite_complete)*
@@ -177,6 +178,7 @@ NERDTreeAbout	NERD_tree.txt	/*NERDTreeAbout*
 NERDTreeAddKeyMap()	NERD_tree.txt	/*NERDTreeAddKeyMap()*
 NERDTreeAddMenuItem()	NERD_tree.txt	/*NERDTreeAddMenuItem()*
 NERDTreeAddMenuSeparator()	NERD_tree.txt	/*NERDTreeAddMenuSeparator()*
+NERDTreeAddPathFilter()	NERD_tree.txt	/*NERDTreeAddPathFilter()*
 NERDTreeAddSubmenu()	NERD_tree.txt	/*NERDTreeAddSubmenu()*
 NERDTreeBookmarkCommands	NERD_tree.txt	/*NERDTreeBookmarkCommands*
 NERDTreeBookmarkTable	NERD_tree.txt	/*NERDTreeBookmarkTable*
@@ -202,6 +204,7 @@ ag-options	ag.txt	/*ag-options*
 ag.txt	ag.txt	/*ag.txt*
 b:neocomplete_sources	neocomplete.txt	/*b:neocomplete_sources*
 b:tcomment_def_{NAME}	tcomment.txt	/*b:tcomment_def_{NAME}*
+cS	surround.txt	/*cS*
 config/rails.vim	rails.txt	/*config\/rails.vim*
 cs	surround.txt	/*cs*
 ds	surround.txt	/*ds*
@@ -385,7 +388,9 @@ g:tcommentGuessFileType_django	tcomment.txt	/*g:tcommentGuessFileType_django*
 g:tcommentGuessFileType_dsl	tcomment.txt	/*g:tcommentGuessFileType_dsl*
 g:tcommentGuessFileType_eruby	tcomment.txt	/*g:tcommentGuessFileType_eruby*
 g:tcommentGuessFileType_html	tcomment.txt	/*g:tcommentGuessFileType_html*
+g:tcommentGuessFileType_jinja	tcomment.txt	/*g:tcommentGuessFileType_jinja*
 g:tcommentGuessFileType_php	tcomment.txt	/*g:tcommentGuessFileType_php*
+g:tcommentGuessFileType_rnoweb	tcomment.txt	/*g:tcommentGuessFileType_rnoweb*
 g:tcommentGuessFileType_smarty	tcomment.txt	/*g:tcommentGuessFileType_smarty*
 g:tcommentGuessFileType_tskeleton	tcomment.txt	/*g:tcommentGuessFileType_tskeleton*
 g:tcommentGuessFileType_vim	tcomment.txt	/*g:tcommentGuessFileType_vim*
@@ -458,9 +463,9 @@ neobundle#has_fresh_cache()	neobundle.txt	/*neobundle#has_fresh_cache()*
 neobundle#hooks	neobundle.txt	/*neobundle#hooks*
 neobundle#is_installed()	neobundle.txt	/*neobundle#is_installed()*
 neobundle#is_sourced()	neobundle.txt	/*neobundle#is_sourced()*
+neobundle#load_cache()	neobundle.txt	/*neobundle#load_cache()*
 neobundle#load_toml()	neobundle.txt	/*neobundle#load_toml()*
 neobundle#local()	neobundle.txt	/*neobundle#local()*
-neobundle#rc()	neobundle.txt	/*neobundle#rc()*
 neobundle#source()	neobundle.txt	/*neobundle#source()*
 neobundle#tap()	neobundle.txt	/*neobundle#tap()*
 neobundle#tapped	neobundle.txt	/*neobundle#tapped*
@@ -491,6 +496,7 @@ neobundle-options-focus	neobundle.txt	/*neobundle-options-focus*
 neobundle-options-force	neobundle.txt	/*neobundle-options-force*
 neobundle-options-gui	neobundle.txt	/*neobundle-options-gui*
 neobundle-options-hooks	neobundle.txt	/*neobundle-options-hooks*
+neobundle-options-install_process_timeout	neobundle.txt	/*neobundle-options-install_process_timeout*
 neobundle-options-lazy	neobundle.txt	/*neobundle-options-lazy*
 neobundle-options-name	neobundle.txt	/*neobundle-options-name*
 neobundle-options-overwrite	neobundle.txt	/*neobundle-options-overwrite*
@@ -554,7 +560,6 @@ neocomplete-filter-attribute-filter	neocomplete.txt	/*neocomplete-filter-attribu
 neocomplete-filter-attribute-name	neocomplete.txt	/*neocomplete-filter-attribute-name*
 neocomplete-filter-attributes	neocomplete.txt	/*neocomplete-filter-attributes*
 neocomplete-filter-converter_abbr	neocomplete.txt	/*neocomplete-filter-converter_abbr*
-neocomplete-filter-converter_case	neocomplete.txt	/*neocomplete-filter-converter_case*
 neocomplete-filter-converter_default	neocomplete.txt	/*neocomplete-filter-converter_default*
 neocomplete-filter-converter_delimiter	neocomplete.txt	/*neocomplete-filter-converter_delimiter*
 neocomplete-filter-converter_disable_abbr	neocomplete.txt	/*neocomplete-filter-converter_disable_abbr*
@@ -785,7 +790,9 @@ tcomment#Comment()	tcomment.txt	/*tcomment#Comment()*
 tcomment#CommentAs()	tcomment.txt	/*tcomment#CommentAs()*
 tcomment#DefineType()	tcomment.txt	/*tcomment#DefineType()*
 tcomment#GetCommentDef()	tcomment.txt	/*tcomment#GetCommentDef()*
+tcomment#GetLineC()	tcomment.txt	/*tcomment#GetLineC()*
 tcomment#GuessCommentType()	tcomment.txt	/*tcomment#GuessCommentType()*
+tcomment#MaybeReuseOptions()	tcomment.txt	/*tcomment#MaybeReuseOptions()*
 tcomment#Operator()	tcomment.txt	/*tcomment#Operator()*
 tcomment#OperatorAnyway()	tcomment.txt	/*tcomment#OperatorAnyway()*
 tcomment#OperatorLine()	tcomment.txt	/*tcomment#OperatorLine()*
