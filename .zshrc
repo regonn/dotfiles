@@ -13,7 +13,7 @@ export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/platform-tools
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/tools
-export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk
+export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk
 
 # 色を使用出来るようにする
 autoload -Uz colors
