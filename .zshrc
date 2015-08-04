@@ -14,6 +14,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/platform-tools
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/tools
 export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk
+export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config"
 
 # 色を使用出来るようにする
 autoload -Uz colors
