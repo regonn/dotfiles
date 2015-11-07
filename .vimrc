@@ -28,7 +28,6 @@ NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'wting/rust.vim'
-NeoBundle 'christoomey/vim-tmux-navigator'
 call neobundle#end()
 
 " 未インストールのbundleがないかチェック
