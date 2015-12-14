@@ -24,7 +24,7 @@ Style/NumericLiterals:
   MinDigits: 7
 
 # allow has_ and is_
-Style/PredicatedName:
+Style/PredicateName:
   NamePrefixBlacklist:
     - "have_"
   NamePrefix:
