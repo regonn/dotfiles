@@ -1,0 +1,41 @@
+AllCops:
+  RunRailsCops: true
+  Exclude:
+    - "db/schema.rb"
+
+# allow redirect_to xxx and return
+Style/AndOr:
+  EnforcedStyle: conditionals
+
+# allow no document public class
+Style/Documentation:
+  Enabled: false
+
+# private/protected need indent
+Style/IndentationConsistency:
+  EnforcedStyle: rails
+
+# scope use ->{}
+Style/Lambda:
+  Enabled: false
+
+# 1_000_000
+Style/NumericLiterals:
+  MinDigits: 7
+
+# allow has_ and is_
+Style/PredicatedName:
+  NamePrefixBlacklist:
+    - "have_"
+  NamePrefix:
+    - "have_"
+
+Metrics/MethodLength:
+  Max: 15
+  Exclude:
+    - "db/migrate/*.rb"
+
+Metrics/LineLength:
+  Max: 120
+  Exclude:
+    - "db/migrate/*.rb"
