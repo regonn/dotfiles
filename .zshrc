@@ -15,6 +15,7 @@ export PATH=$PATH:/Users/regonn/Library/Android/sdk/platform-tools
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/tools
 export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk
 export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config"
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export PGHOST=localhost
 
 # 色を使用出来るようにする
