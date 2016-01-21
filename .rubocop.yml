@@ -30,6 +30,9 @@ Style/PredicateName:
   NamePrefix:
     - "have_"
 
+Style/StringLiterals:
+  Enabled: false
+
 Metrics/MethodLength:
   Max: 15
   Exclude:
