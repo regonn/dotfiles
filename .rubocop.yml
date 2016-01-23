@@ -11,6 +11,9 @@ Style/AndOr:
 Style/Documentation:
   Enabled: false
 
+Style/AsciiComments:
+  Enabled: false
+
 # private/protected need indent
 Style/IndentationConsistency:
   EnforcedStyle: rails
