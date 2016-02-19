@@ -29,10 +29,10 @@ SAVEHIST=1000000
 
 # ----- PROMPT -----
 ## PROMPT
-PROMPT="%{${fg[yellow]}%}%~%{${reset_color}%}
-[%n@%m]>"
+PROMPT=$'%{${fg[magenta]}%} %~ %{${reset_color}%} `branch-status-check`
+[%n@%m]>'
 ## RPROMPT
-RPROMPT=$'`branch-status-check` %~' # %~はpwd
+RPROMPT=$''
 setopt prompt_subst #表示毎にPROMPTで設定されている文字列を評価する
 
 # {{{ methods for RPROMPT
@@ -118,8 +118,6 @@ precmd () {
     LANG=en_US.UTF-8 vcs_info
     [[ -n "$vcs_info_msg_0_" ]] && psvar[1]="$vcs_info_msg_0_"
 }
-RPROMPT="%1(v|%F{green}%1v%f|)"
-
 
 ########################################
 # オプション

@@ -1,20 +1,56 @@
+[alias]
+	c = commit -am
+	up = pull
+	p = push
+	s = status -s
+	sclone = clone --depth=1
+	co = checkout
+	df = diff --color --color-words --abbrev
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	# Show the diff between the latest commit and the current state
+	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+	reup = rebase-update # depot_tools specific
 [user]
 	name = regonn
 	email = github@regonn.tokyo
-
 [color]
-	ui = auto
-
+	ui = always
 [core]
-	filemode = false
-	excludesfile = /Users/regonn/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+	# insanely beautiful diffs
+	pager = diff-highlight | diff-so-fancy | less -r
+	excludesfile = ~/.gitignore_global
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+# git mergetool
+[merge]
+	tool = opendiff
+
+[pager]
+	diff = diff-so-fancy | less --tabs=1,5 -RFX
+	show = diff-so-fancy | less --tabs=1,5 -RFX
+# correct typos
+[help]
+	autocorrect = 1
+# push easily. http://stackoverflow.com/a/23918418/89484
+[push]
+	default = current
