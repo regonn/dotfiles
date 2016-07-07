@@ -1,3 +1,6 @@
+inherit_gem:
+  sgcop: ruby/rubocop.yml
+
 AllCops:
   Rails:
     Enabled: true
