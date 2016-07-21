@@ -17,8 +17,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/platform-tools
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/tools
 export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk
-export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config"
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versions/latest/bin/pg_config"
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PGHOST=localhost
 
 # 色を使用出来るようにする
@@ -182,6 +182,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
 alias atom="/Applications/Atom.app/Contents/MacOS/Atom"
+alias vim='nvim'
 
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '

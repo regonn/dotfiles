@@ -1,0 +1,24 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+build = 'make'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo  = 'cespare/vim-toml'
+on_ft = 'toml'
+
+[[plugins]]
+repo = 'tmux-plugins/vim-tmux'
+on_ft = 'tmux'
+
+[[plugins]] # Haml
+repo  = 
+on_ft = 'haml'
+
+[[plugins]]
+repo = 'kassio/neoterm'
