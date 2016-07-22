@@ -11,6 +11,7 @@ eval "$(rbenv init - zsh)"
 export NVM_DIR=~/.nvm
 export RUST_SRC_PATH=~/rust/src
 source $(brew --prefix nvm)/nvm.sh
+source ~/.bin/tmuxinator.zsh
 nvm use stable > /dev/null
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -20,6 +21,7 @@ export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk
 export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versions/latest/bin/pg_config"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PGHOST=localhost
+export EDITOR='nvim'
 
 # 色を使用出来るようにする
 autoload -Uz colors
