@@ -12,3 +12,4 @@ ln -s ~/dotfiles/.config ~/.config
 ln -s ~/dotfiles/.zshenv ~/.zshenv
 ln -s ~/dotfiles/.bin ~/.bin
 ln -s ~/dotfiles/.tmuxinator ~/.tmuxinator
+ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
