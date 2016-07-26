@@ -12,6 +12,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'rking/ag.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'scrooloose/syntastic'
+Plug 'mxw/vim-jsx'
 call plug#end()
 
 " 行数
@@ -28,6 +29,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:deoplete#enable_at_startup = 1
+let g:jsx_ext_required = 0
 
 filetype indent on
 set tabstop=2
@@ -36,5 +38,7 @@ set expandtab
 
 let g:syntastic_mode_map = { 'mode': 'active' }
 let g:syntastic_ruby_checkers = ['rubocop']
+
+inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : deoplete#mappings#manual_complete()
 
 colorscheme jellybeans

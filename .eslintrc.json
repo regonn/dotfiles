@@ -1,18 +1,24 @@
 {
   "env": {
-    "es6": true,
+    "browser": true,
     "node": true,
     "jquery": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "globals": {
     "React": true
   },
-  "ecmaFeatures": {
-    "jsx": true
-  },
-  "extends": "standard",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "plugins": [
-    "standard",
     "react"
   ]
 }

@@ -33,4 +33,3 @@ windows:
       panes:
         - vim
         - bin/rails c
-  - logs: tail -f log/development.log
