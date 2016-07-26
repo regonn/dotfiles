@@ -22,6 +22,7 @@ export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versio
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PGHOST=localhost
 export EDITOR='nvim'
+export ANDROID_HOME=/Users/regonn/Library/Android/sdk
 
 # 色を使用出来るようにする
 autoload -Uz colors
