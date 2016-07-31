@@ -13,6 +13,8 @@ Plug 'rking/ag.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'scrooloose/syntastic'
 Plug 'mxw/vim-jsx'
+Plug 'ElmCast/elm-vim'
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 call plug#end()
 
 " 行数
@@ -39,6 +41,6 @@ set expandtab
 let g:syntastic_mode_map = { 'mode': 'active' }
 let g:syntastic_ruby_checkers = ['rubocop']
 
-inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : deoplete#mappings#manual_complete()
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 colorscheme jellybeans
