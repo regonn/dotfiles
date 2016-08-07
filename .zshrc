@@ -11,7 +11,6 @@ eval "$(rbenv init - zsh)"
 export NVM_DIR=~/.nvm
 export RUST_SRC_PATH=~/rust/src
 source $(brew --prefix nvm)/nvm.sh
-source ~/.bin/tmuxinator.zsh
 nvm use stable > /dev/null
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -35,10 +34,6 @@ SAVEHIST=1000000
 
 # 履歴に同じ行が重複するのを避ける
 setopt HIST_IGNORE_DUPS
-
-# 履歴検索
-[[ -n "${key[PageUp]}"   ]]  && bindkey  "${key[PageUp]}"    history-beginning-search-backward
-[[ -n "${key[PageDown]}" ]]  && bindkey  "${key[PageDown]}"  history-beginning-search-forward
 
 # ----- PROMPT -----
 ## PROMPT
