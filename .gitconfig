@@ -12,7 +12,7 @@
 	reup = rebase-update # depot_tools specific
 [user]
 	name = regonn
-	email = github@regonn.tokyo
+	email = programmer@regonn.biz
 [color]
 	ui = always
 [core]

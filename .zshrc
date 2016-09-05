@@ -5,11 +5,8 @@
 export LANG=ja_JP.UTF-8
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH=/Users/regonn/.multirust/toolchains/stable/cargo/bin:$PATH
-export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
 eval "$(rbenv init - zsh)"
 export NVM_DIR=~/.nvm
-export RUST_SRC_PATH=~/rust/src
 source $(brew --prefix nvm)/nvm.sh
 nvm use stable > /dev/null
 export RBENV_ROOT=/usr/local/var/rbenv
@@ -192,20 +189,12 @@ alias vim='nvim'
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
 
-########################################
-# OS 別の設定
-case ${OSTYPE} in
-    darwin*)
-        #Mac用の設定
-        export CLICOLOR=1
-        alias ls='ls -G -F'
-        ;;
-    linux*)
-        #Linux用の設定
-        ;;
-esac
+export CLICOLOR=1
+alias ls='ls -G -F'
 
 # vim:set ft=zsh:
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

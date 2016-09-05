@@ -3,18 +3,20 @@ function! DoRemote(arg)
   UpdateRemotePlugins
 endfunction
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
+Plug 'Shougo/denite.nvim'
 Plug 'tpope/vim-haml'
 Plug 'scrooloose/nerdtree'
 Plug 'kassio/neoterm'
-Plug 'nanotech/jellybeans.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'rking/ag.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'scrooloose/syntastic'
 Plug 'mxw/vim-jsx'
-Plug 'ElmCast/elm-vim'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'chriskempson/vim-tomorrow-theme'
 call plug#end()
 
 " 行数
@@ -43,4 +45,4 @@ let g:syntastic_ruby_checkers = ['rubocop']
 
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
-colorscheme jellybeans
+colorscheme Tomorrow-Night
