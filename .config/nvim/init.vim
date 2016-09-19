@@ -58,4 +58,3 @@ inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 colorscheme Tomorrow-Night
 
 let NERDTreeShowHidden = 1
-autocmd VimEnter * execute 'NERDTree'
