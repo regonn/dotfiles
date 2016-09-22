@@ -183,7 +183,6 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
-alias atom="/Applications/Atom.app/Contents/MacOS/Atom"
 alias vim='nvim'
 
 # sudo の後のコマンドでエイリアスを有効にする
@@ -191,8 +190,6 @@ alias sudo='sudo '
 
 export CLICOLOR=1
 alias ls='ls -G -F'
-
-# vim:set ft=zsh:
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
