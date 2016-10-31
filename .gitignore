@@ -1,1 +1,3 @@
 .config/nvim/plugged/*
+.config/configstore/firebase-tools.json
+.config/configstore/update-notifier-firebase-tools.json
