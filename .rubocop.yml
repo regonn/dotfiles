@@ -2,10 +2,12 @@ inherit_gem:
   sgcop: ruby/rubocop.yml
 
 AllCops:
-  Rails:
-    Enabled: true
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
   Exclude:
-    - "schema.rb"
+    - 'db/**/*'
+    - 'config/**/*'
 
 # allow redirect_to xxx and return
 Style/AndOr:

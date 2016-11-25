@@ -54,7 +54,6 @@ values."
             shell-default-position 'bottom)
      spell-checking
      syntax-checking
-     themes-megapack
      deft
      version-control
      markdown
@@ -65,7 +64,6 @@ values."
            ruby-version-manager 'rbenv
            ruby-test-runner 'rspec
            )
-     elixir
      python
      yaml
      html
