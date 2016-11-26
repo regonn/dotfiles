@@ -183,7 +183,6 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
-alias vim='nvim'
 
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
