@@ -17,7 +17,7 @@ export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk
 export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versions/latest/bin/pg_config"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PGHOST=localhost
-export EDITOR='nvim'
+export EDITOR='vim'
 export ANDROID_HOME=/Users/regonn/Library/Android/sdk
 
 # 色を使用出来るようにする
