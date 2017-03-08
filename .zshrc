@@ -5,6 +5,7 @@
 export LANG=ja_JP.UTF-8
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
+export PATH=$PATH:/Users/regonn/flutter/bin
 eval "$(rbenv init - zsh)"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
@@ -19,6 +20,13 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PGHOST=localhost
 export EDITOR='vim'
 export ANDROID_HOME=/Users/regonn/Library/Android/sdk
+export RUST_SRC_PATH=/Users/regonn/rust/src
+export PYENV_ROOT=/Users/regonn/.pyenv
+export PATH=$PATH:/Users/regonn/.pyenv/bin
+eval "$(pyenv init -)"
+export XDG_CONFIG_HOME=$HOME/.config
+BASE16_SHELL=$HOME/.config/base16-shell/
+[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 # 色を使用出来るようにする
 autoload -Uz colors
@@ -189,6 +197,7 @@ alias sudo='sudo '
 
 export CLICOLOR=1
 alias ls='ls -G -F'
+alias vim='nvim'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

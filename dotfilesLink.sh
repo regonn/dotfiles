@@ -11,5 +11,3 @@ ln -s ~/dotfiles/.sass-lint.yml ~/.sass-lint.yml
 ln -s ~/dotfiles/.config ~/.config
 ln -s ~/dotfiles/.zshenv ~/.zshenv
 ln -s ~/dotfiles/.bin ~/.bin
-ln -s ~/dotfiles/.spacemacs ~/.spacemacs
-ln -s ~/dotfiles/.hyper.js ~/.hyper.js

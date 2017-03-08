@@ -1,3 +1,18 @@
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'rking/ag.vim'
+Plug 'vim-syntastic/syntastic'
+Plug 'vim-ruby/vim-ruby'
+Plug 'wakatime/vim-wakatime'
+Plug 'tpope/vim-rails'
+Plug 'Shougo/neocomplete.vim'
+Plug 'Shougo/denite.nvim'
+call plug#end()
+
+"syntastic
+let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['ruby'] }
+let g:syntastic_ruby_checkers = ['rubocop']
+
 filetype plugin indent off
 
 syntax on
@@ -58,3 +73,5 @@ set backspace=start,eol,indent
 
 "grep検索の実行後にQuickFix Listを表示する
 autocmd QuickFixCmdPost *grep* cwindow
+
+

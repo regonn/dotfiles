@@ -7,6 +7,7 @@ AllCops:
     - '**/config.ru'
   Exclude:
     - 'db/**/*'
+    - 'db/*'
     - 'config/**/*'
 
 # allow redirect_to xxx and return
