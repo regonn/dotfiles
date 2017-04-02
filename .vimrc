@@ -7,6 +7,7 @@ Plug 'wakatime/vim-wakatime'
 Plug 'tpope/vim-rails'
 Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/denite.nvim'
+Plug 'thinca/vim-quickrun'
 call plug#end()
 
 "syntastic

@@ -87,6 +87,7 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'kassio/neoterm'
 Plug 'chriskempson/base16-vim'
 Plug '907th/vim-auto-save'
+Plug 'thinca/vim-quickrun'
 call plug#end()
 
 "syntastic
