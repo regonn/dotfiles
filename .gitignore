@@ -1,3 +1,5 @@
 .config/nvim/plugged/*
 .config/configstore/firebase-tools.json
 .config/configstore/update-notifier-firebase-tools.json
+.config/heroku/config.json
+.config/yarn/*

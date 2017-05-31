@@ -6,6 +6,7 @@ export LANG=ja_JP.UTF-8
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=$PATH:/Users/regonn/flutter/bin
+export FLUTTER_FRAMEWORK_DIR=/Users/regonn/flutter
 eval "$(rbenv init - zsh)"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
@@ -14,7 +15,7 @@ export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/platform-tools
 export PATH=$PATH:/Users/regonn/Library/Android/sdk/tools
-export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk
+export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk
 export CONFIGURE_ARGS="with-pg-config=/Applications/Postgres.app/Contents/Versions/latest/bin/pg_config"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export PGHOST=localhost
@@ -27,6 +28,7 @@ eval "$(pyenv init -)"
 export XDG_CONFIG_HOME=$HOME/.config
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 
 # 色を使用出来るようにする
 autoload -Uz colors
@@ -203,3 +205,5 @@ alias vim='nvim'
 export PATH="/usr/local/heroku/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
