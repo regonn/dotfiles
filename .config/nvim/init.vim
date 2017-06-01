@@ -125,3 +125,6 @@ set listchars=tab:»-
 
 "auto-save
 let g:auto_save = 1
+
+"Python3 support
+let g:python3_host_prog = expand('$HOME') . '/.pyenv/shims/python'
