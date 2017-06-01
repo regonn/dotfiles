@@ -78,8 +78,8 @@ set fileencoding=utf-8
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'rking/ag.vim'
-Plug 'vim-syntastic/syntastic'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 Plug 'Shougo/denite.nvim'
@@ -88,6 +88,15 @@ Plug 'kassio/neoterm'
 Plug 'chriskempson/base16-vim'
 Plug '907th/vim-auto-save'
 Plug 'thinca/vim-quickrun'
+Plug 'w0rp/ale'
+Plug 'chriskempson/base16-vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
+Plug 'zchee/deoplete-jedi'
+Plug 'thinca/vim-quickrun'
+
 call plug#end()
 
 "syntastic
@@ -109,12 +118,12 @@ command! -nargs=+ Tg :T git <args>
 " deoplete
 let g:deoplete#enable_at_startup = 1
 "Tabで補完を選択
-inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>" 
+inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 
 "==<color>===================================================================
 "base16-default-dark
 let base16colorspace=256
-colorscheme base16-default-dark
+colorscheme base16-tomorrow-night
 
 "スペースの可視化
 highlight ZenkakuSpace ctermbg=6
@@ -128,3 +137,9 @@ let g:auto_save = 1
 
 "Python3 support
 let g:python3_host_prog = expand('$HOME') . '/.pyenv/shims/python'
+
+let g:ale_linters = {
+      \ 'javascript': ['eslint'],
+      \ 'ruby': ['rubocop'],
+      \ 'haml': ['haml-lint'],
+      \ }
