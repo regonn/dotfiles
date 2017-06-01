@@ -3,3 +3,4 @@
 .config/configstore/update-notifier-firebase-tools.json
 .config/heroku/config.json
 .config/yarn/*
+.config/base16-shell/*
