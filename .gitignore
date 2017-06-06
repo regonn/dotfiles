@@ -5,3 +5,4 @@
 .config/yarn/*
 .config/base16-shell/*
 .config/nvim/.netrwhist
+.config/configstore/*
