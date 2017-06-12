@@ -13,3 +13,4 @@ ln -s ~/dotfiles/.config ~/.config
 ln -s ~/dotfiles/.zshenv ~/.zshenv
 ln -s ~/dotfiles/.bin ~/.bin
 ln -s ~/dotfiles/.haml-lint.yml ~/.haml-lint.yml
+ln -s ~/dotfiles/.spacemacs ~/.spacemacs
