@@ -21,10 +21,6 @@ Style/Documentation:
 Style/AsciiComments:
   Enabled: false
 
-# private/protected need indent
-Style/IndentationConsistency:
-  EnforcedStyle: rails
-
 # scope use ->{}
 Style/Lambda:
   Enabled: false
